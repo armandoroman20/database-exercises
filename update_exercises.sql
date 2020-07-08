@@ -12,7 +12,7 @@ from albums;
 --Make all the albums 10 times more popular (sales * 10)
 update albums set sales = sales * 10;
 
-select name as 'albums before 1980'
+select name, release_date as 'albums before 1980'
 from albums
 where release_date < 1980;
 --Move all the albums before 1980 back to the 1800s.

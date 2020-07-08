@@ -21,12 +21,12 @@ from albums where name = 'Nevermind';
 
 --Which albums were released in the 1990s
 
-select * as 'all albums released in the 90''s'
+select name as 'all albums released in the 90''s'
 from albums where release_date between 1989 and 2000;
 
 --Which albums had less than 20 million certified sales
 
-select *  as 'albums with less than 20 million sales'
+select name  as 'albums with less than 20 million sales'
 from albums where sales < 20;
 
 --All the albums with a genre of "Rock".
